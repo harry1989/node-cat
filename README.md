@@ -1,7 +1,17 @@
 node-cat
 ========
 
-Node based utility which mocks unix `cat` command
+Node based command utility which mocks unix `cat` command
+
+    Usage: FILE [options]
+    
+    Options:
+      -n          Number the lines in the output
+      -s          Sequeeze the empty lines
+      -b          Number only non-empty lines
+      -h, --help  Help on how to use `cat`
+      --debug     Print useful info when running
+
 
   - If the file doesn't exist, it will be automatically created
     and the input is streamed to the file
@@ -11,7 +21,7 @@ Node based utility which mocks unix `cat` command
  
   - If none of the files exists, first file in the list will be crated
 
-Examples:
+**Examples**:
 
    - showing Single file 
 
@@ -135,5 +145,7 @@ Examples:
         harry@local:/u/harry/cat>
 
  
-  @harry_sistalam
+    Author: @harry_sistalam
+    
+    License: BSD
 
