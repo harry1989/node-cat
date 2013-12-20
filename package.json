@@ -1,0 +1,20 @@
+{
+  "name": "node-cat",
+  "version": "0.0.01",
+  "description": "Node based utility which mocks unix `cat` command",
+  "main": "cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cat"
+  ],
+  "author": "harry_sistalam",
+  "license": "BSD",
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "async": "~0.2.9",
+    "when": "~2.7.0",
+    "optimist": "~0.6.0"
+  }
+}
