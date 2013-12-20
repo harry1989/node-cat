@@ -39,7 +39,7 @@ Examples:
         module.exports = liner;
         harry@local:/u/harry/cat>
 
-    - Showing single file with the line number
+   - Showing single file with the line number
 
         harry@local:/u/harry/cat> ./cat.js liner.js -n
         1: var stream = require('stream'),
@@ -64,7 +64,7 @@ Examples:
         20:
         21: module.exports = liner;
 
-    - Showing multiple files
+   - Showing multiple files
 
         harry@local:/u/harry/cat> ./cat.js liner.js -n
         README.md     cat.js*       liner.js      logger.js     node_modules/ package.json
@@ -124,7 +124,7 @@ Examples:
             }
          }
 
-    - Createing a new file
+   - Createing a new file
 
         harry@local:/u/harry/cat> ./cat.js newfile.js
         This is a new file crated by ./cat.js
