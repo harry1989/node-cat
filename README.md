@@ -1,7 +1,7 @@
 node-cat
 ========
 
-Node based command utility which mocks unix `cat` command
+Node based command utility which mocks unix `cat` command. Honestly it doesn't make any sense to write a program to mock cat, since its too simple. But I wrote this to hone my Nodejs skills on streams and async.
 
     Usage: FILE [options]
     
